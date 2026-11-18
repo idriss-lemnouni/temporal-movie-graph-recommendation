@@ -1,0 +1,33 @@
+{
+  "neo4j": "5.26.33",
+  "redis": "8.2.3",
+  "snapshots": {
+    "validation": {
+      "ratings": 70584,
+      "users": 453,
+      "movies": 7056,
+      "newest": 1376822796,
+      "invalid": 0
+    },
+    "test": {
+      "ratings": 85710,
+      "users": 544,
+      "movies": 8187,
+      "newest": 1479542660,
+      "invalid": 0
+    }
+  },
+  "cache": [
+    {
+      "snapshot": "validation",
+      "miss_then_hit": true,
+      "top_10_matches_cpu": true
+    },
+    {
+      "snapshot": "test",
+      "miss_then_hit": true,
+      "top_10_matches_cpu": true
+    }
+  ],
+  "reimport_preserves_counts": true
+}

@@ -1,0 +1,247 @@
+{
+  "source": {
+    "url": "https://files.grouplens.org/datasets/movielens/ml-latest-small.zip",
+    "sha256": "696d65a3dfceac7c45750ad32df2c259311949efec81f0f144fdfb91ebc9e436",
+    "ratings": 100836,
+    "catalog_rows": 9742
+  },
+  "k": 10,
+  "validation": {
+    "cutoff": 1376822924,
+    "cutoff_utc": "2013-08-18T10:48:44+00:00",
+    "targets": 106,
+    "known_item_targets": 96,
+    "cold_item_targets": 10,
+    "history_ratings": 70584,
+    "catalog": 7056,
+    "methods": {
+      "popularity": {
+        "all": {
+          "users": 106,
+          "hits": 35,
+          "recall_at_10": 0.330188679245283,
+          "ndcg_at_10": 0.2308045057471349
+        },
+        "known_items": {
+          "users": 96,
+          "hits": 35,
+          "recall_at_10": 0.3645833333333333,
+          "ndcg_at_10": 0.25484664176246147
+        },
+        "catalog_coverage": 0.006802721088435374,
+        "unique_recommended": 48,
+        "by_activity": {
+          "1\u201320": {
+            "users": 2,
+            "hits": 0,
+            "recall_at_10": 0.0,
+            "ndcg_at_10": 0.0
+          },
+          "21+": {
+            "users": 13,
+            "hits": 0,
+            "recall_at_10": 0.0,
+            "ndcg_at_10": 0.0
+          },
+          "new_user": {
+            "users": 91,
+            "hits": 35,
+            "recall_at_10": 0.38461538461538464,
+            "ndcg_at_10": 0.2688492044966626
+          }
+        }
+      },
+      "cosine": {
+        "all": {
+          "users": 106,
+          "hits": 35,
+          "recall_at_10": 0.330188679245283,
+          "ndcg_at_10": 0.2308045057471349
+        },
+        "known_items": {
+          "users": 96,
+          "hits": 35,
+          "recall_at_10": 0.3645833333333333,
+          "ndcg_at_10": 0.25484664176246147
+        },
+        "catalog_coverage": 0.012755102040816327,
+        "unique_recommended": 90,
+        "by_activity": {
+          "1\u201320": {
+            "users": 2,
+            "hits": 0,
+            "recall_at_10": 0.0,
+            "ndcg_at_10": 0.0
+          },
+          "21+": {
+            "users": 13,
+            "hits": 0,
+            "recall_at_10": 0.0,
+            "ndcg_at_10": 0.0
+          },
+          "new_user": {
+            "users": 91,
+            "hits": 35,
+            "recall_at_10": 0.38461538461538464,
+            "ndcg_at_10": 0.2688492044966626
+          }
+        }
+      },
+      "pagerank": {
+        "all": {
+          "users": 106,
+          "hits": 35,
+          "recall_at_10": 0.330188679245283,
+          "ndcg_at_10": 0.2308045057471349
+        },
+        "known_items": {
+          "users": 96,
+          "hits": 35,
+          "recall_at_10": 0.3645833333333333,
+          "ndcg_at_10": 0.25484664176246147
+        },
+        "catalog_coverage": 0.007511337868480726,
+        "unique_recommended": 53,
+        "by_activity": {
+          "1\u201320": {
+            "users": 2,
+            "hits": 0,
+            "recall_at_10": 0.0,
+            "ndcg_at_10": 0.0
+          },
+          "21+": {
+            "users": 13,
+            "hits": 0,
+            "recall_at_10": 0.0,
+            "ndcg_at_10": 0.0
+          },
+          "new_user": {
+            "users": 91,
+            "hits": 35,
+            "recall_at_10": 0.38461538461538464,
+            "ndcg_at_10": 0.2688492044966626
+          }
+        }
+      }
+    }
+  },
+  "test": {
+    "cutoff": 1479542662,
+    "cutoff_utc": "2016-11-19T08:04:22+00:00",
+    "targets": 96,
+    "known_item_targets": 84,
+    "cold_item_targets": 12,
+    "history_ratings": 85710,
+    "catalog": 8187,
+    "methods": {
+      "popularity": {
+        "all": {
+          "users": 96,
+          "hits": 34,
+          "recall_at_10": 0.3541666666666667,
+          "ndcg_at_10": 0.19312908335239773
+        },
+        "known_items": {
+          "users": 84,
+          "hits": 34,
+          "recall_at_10": 0.40476190476190477,
+          "ndcg_at_10": 0.22071895240274025
+        },
+        "catalog_coverage": 0.00855014046659338,
+        "unique_recommended": 70,
+        "by_activity": {
+          "1\u201320": {
+            "users": 1,
+            "hits": 0,
+            "recall_at_10": 0.0,
+            "ndcg_at_10": 0.0
+          },
+          "21+": {
+            "users": 29,
+            "hits": 1,
+            "recall_at_10": 0.034482758620689655,
+            "ndcg_at_10": 0.034482758620689655
+          },
+          "new_user": {
+            "users": 66,
+            "hits": 33,
+            "recall_at_10": 0.5,
+            "ndcg_at_10": 0.2657635151792452
+          }
+        }
+      },
+      "cosine": {
+        "all": {
+          "users": 96,
+          "hits": 33,
+          "recall_at_10": 0.34375,
+          "ndcg_at_10": 0.18271241668573104
+        },
+        "known_items": {
+          "users": 84,
+          "hits": 33,
+          "recall_at_10": 0.39285714285714285,
+          "ndcg_at_10": 0.20881419049797834
+        },
+        "catalog_coverage": 0.017222425796995237,
+        "unique_recommended": 141,
+        "by_activity": {
+          "1\u201320": {
+            "users": 1,
+            "hits": 0,
+            "recall_at_10": 0.0,
+            "ndcg_at_10": 0.0
+          },
+          "21+": {
+            "users": 29,
+            "hits": 0,
+            "recall_at_10": 0.0,
+            "ndcg_at_10": 0.0
+          },
+          "new_user": {
+            "users": 66,
+            "hits": 33,
+            "recall_at_10": 0.5,
+            "ndcg_at_10": 0.2657635151792452
+          }
+        }
+      },
+      "pagerank": {
+        "all": {
+          "users": 96,
+          "hits": 34,
+          "recall_at_10": 0.3541666666666667,
+          "ndcg_at_10": 0.19312908335239773
+        },
+        "known_items": {
+          "users": 84,
+          "hits": 34,
+          "recall_at_10": 0.40476190476190477,
+          "ndcg_at_10": 0.22071895240274025
+        },
+        "catalog_coverage": 0.009405154513252717,
+        "unique_recommended": 77,
+        "by_activity": {
+          "1\u201320": {
+            "users": 1,
+            "hits": 0,
+            "recall_at_10": 0.0,
+            "ndcg_at_10": 0.0
+          },
+          "21+": {
+            "users": 29,
+            "hits": 1,
+            "recall_at_10": 0.034482758620689655,
+            "ndcg_at_10": 0.034482758620689655
+          },
+          "new_user": {
+            "users": 66,
+            "hits": 33,
+            "recall_at_10": 0.5,
+            "ndcg_at_10": 0.2657635151792452
+          }
+        }
+      }
+    }
+  }
+}
